@@ -1,0 +1,68 @@
+<resources>
+
+    <dimen name="toolbar_height">28.0dp</dimen>
+    <dimen name="text_xsmall">7.0sp</dimen>
+    <dimen name="text_xxsmall">5.6sp</dimen>
+    <dimen name="text_small">8.399sp</dimen>
+    <dimen name="text_xxxsmall">8.399sp</dimen>
+    <dimen name="text_medium">9.799sp</dimen>
+    <dimen name="text_large">11.2sp</dimen>
+    <dimen name="text_xlarge">12.6sp</dimen>
+    <dimen name="text_xxlarge">14.0sp</dimen>
+    <dimen name="text_xxxlarge">21.0sp</dimen>
+    <dimen name="text_xxxxlarge">42.0sp</dimen>
+
+    <dimen name="spacing_xxxsmall">-7.0dp</dimen>
+    <dimen name="spacing_xsmall">1.4dp</dimen>
+    <dimen name="spacing_xxsmall">2.8dp</dimen>
+    <dimen name="spacing_xxxxsmall">4.199dp</dimen>
+    <dimen name="spacing_small">6.0dp</dimen>
+    <dimen name="spacing_xmedium">9.799dp</dimen>
+    <dimen name="spacing_medium">11.2dp</dimen>
+    <dimen name="spacing_large">14.0dp</dimen>
+    <dimen name="spacing_xlarge">16.799dp</dimen>
+    <dimen name="spacing_xxlarge">21.0dp</dimen>
+    <dimen name="spacing_xxxlarge">22.4dp</dimen>
+    <dimen name="layout_left_large">56.0dp</dimen>
+    <dimen name="layout_small">0.7dp</dimen>
+    <dimen name="layout_xsmall">2.099dp</dimen>
+    <dimen name="layout_xxsmall">3.5dp</dimen>
+    <dimen name="layout_xxxsmall">5.6dp</dimen>
+    <dimen name="layout_medium">18.2dp</dimen>
+    <dimen name="layout_large">28.0dp</dimen>
+    <dimen name="layout_xlarge">35.0dp</dimen>
+    <dimen name="layout_xxlarge">42.0dp</dimen>
+    <dimen name="layout_xxxlarge">70.0dp</dimen>
+
+    <dimen name="thumb_text_size">9.799sp</dimen>
+    <dimen name="thumb_width">70.0dp</dimen>
+    <dimen name="thumb_height">35.0dp</dimen>
+
+    <dimen name="margin_large">68.0dp</dimen>
+    <dimen name="view_pager_height">385.0dp</dimen>
+    <dimen name="top_height">75.0dp</dimen>
+    <dimen name="recycler_width">196.0dp</dimen>
+    <dimen name="logo_height">84.0dp</dimen>
+    <dimen name="pingpay_red_width">155.0dp</dimen>
+    <dimen name="pingpay_red_height">119.0dp</dimen>
+    <dimen name="thumb_left">78.0dp</dimen>
+    <dimen name="layout_150dp">76dp</dimen>
+    <dimen name="layout_240dp">121dp</dimen>
+    <dimen name="layout_160dp">81dp</dimen>
+    <dimen name="layout_155dp">78dp</dimen>
+    <dimen name="layout_180dp">91dp</dimen>
+    <dimen name="layout_185dp">93dp</dimen>
+    <dimen name="layout_200dp">101dp</dimen>
+    <dimen name="layout_75dp">38dp</dimen>
+    <dimen name="layout_350dp">176dp</dimen>
+    <dimen name="layout_18dp">10dp</dimen>
+    <dimen name="layout_22dp">12dp</dimen>
+    <dimen name="layout_11dp">6dp</dimen>
+    <dimen name="layout_35dp">18dp</dimen>
+    <dimen name="layout_70dp">36dp</dimen>
+    <dimen name="layout_175dp">88dp</dimen>
+    <dimen name="layout_45dp">23dp</dimen>
+    <dimen name="layout_55dp">29dp</dimen>
+    <dimen name="layout_26dp">14dp</dimen>
+    <dimen name="layout_300dp">150dp</dimen>
+</resources>

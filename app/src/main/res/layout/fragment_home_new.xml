@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_image1" />
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.7"
+                android:background="@color/colorPrimary" />
+
+
+        <ImageView
+                android:id="@+id/logout"
+                android:layout_width="@dimen/toolbar_height"
+                android:layout_height="@dimen/toolbar_height"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_large"
+
+                android:src="@drawable/logout"
+                android:tint="#FFF" />
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:padding="@dimen/spacing_large"
+                android:src="@drawable/logo"
+                />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/spacing_small"
+                android:layout_marginRight="@dimen/spacing_small"
+                android:layout_marginBottom="@dimen/spacing_small"
+                android:background="#FFF"
+                android:elevation="@dimen/spacing_small" />
+    </FrameLayout>
+
+
+</RelativeLayout>

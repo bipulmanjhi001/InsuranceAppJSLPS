@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+        <TextView
+                android:id="@+id/versionNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Version No :"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/reports"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/buttonshape_new"
+                android:gravity="center"
+                android:text="Reports"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        <TextView
+                android:id="@+id/logIn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/buttonshape_new"
+                android:gravity="center"
+                android:text="Log In"
+                android:textColor="#000"
+                android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="स्वयं सहायता समूह सदस्यों एवं अन्य बीमित व्यक्तियों के बीमा दावा निपटारे
+हेतु मोबाईल एप्लीकेशन"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:weightSum="3">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.6"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttonshape_new"
+                android:elevation="10dp"
+                android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/recyclerviewreports"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp" />
+
+
+            <!--<TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Hello"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            <LinearLayout
+                    android:id="@+id/layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp">
+
+                <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.3"
+                        android:id="@+id/homeicon"
+                        android:layout_gravity="center"
+                        android:src="@drawable/insurance" />
+
+                <TextView
+                        android:id="@+id/title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.8"
+                        android:gravity="center|left"
+                        android:paddingLeft="5dp"
+                        android:text="bdfsagdfsadasfdas"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                app:dotsColor="#000"
+                app:dotsCornerRadius="8dp"
+                app:dotsSize="10dp"
+                app:dotsSpacing="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:dotsWidthFactor="2.5"
+                app:selectedDotColor="#2E2C8F"
+                app:progressMode="true"
+                />
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="5dp">
+
+
+            <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+                android:id="@+id/registernewClaim"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttonshape"
+                android:elevation="5dp"
+                android:text="Register A New Claim"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

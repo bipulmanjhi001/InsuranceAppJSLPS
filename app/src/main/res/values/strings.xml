@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Bima Sewa</string>
+    <string name="exit_message">Are you sure, You want to Exit ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading_msg">Please wait..</string>
+    <string name="logout_message">Are you sure, You want to Logout ?</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Relationship">
+        <item>Select Relationship</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Son</item>
+        <item>Brother</item>
+        <item>Spouse</item>
+        <item>Sister</item>
+        <item>Daughter</item>
+    </string-array>
+
+    <string-array name="schemeArray">
+        <item>All Scheme</item>
+        <item>PMSBY</item>
+        <item>PMJJBY</item>
+        <item>PMJAY</item>
+        <item>Asset Insurance (Crop, Livestock, Others)</item>
+    </string-array>
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+        <item>Javascript</item>
+        <item>Jquery</item>
+    </string-array>
+    <string name="youAreNotUpdatedMessage" translatable="false">A new version of BIMA SEWA app is available. Please update to new version now.</string>
+    <string name="update">Update</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<string-array name="Asset_Insured">
+    <item>Goat</item>
+    <item>Pig</item>
+    <item>Cow</item>
+    <item>Buffalo</item>
+    <item>Poultry bird</item>
+</string-array>
+
+</resources>

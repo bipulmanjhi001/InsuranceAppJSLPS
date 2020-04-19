@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFF"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="5dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Hello"
+                android:textColor="#000"
+                android:textSize="@dimen/text_xlarge"
+                android:textStyle="bold" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#FFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/spacing_small">
+
+            <TextView
+                    android:id="@+id/registerd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/spacing_small"
+                    android:layout_weight="1.8"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="Claim Registered"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            <TextView
+                    android:id="@+id/registerd_count"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/circle_round"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/spacing_small">
+
+            <TextView
+                    android:id="@+id/underprocess"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.8"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="Claim Under Process"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            <TextView
+                    android:id="@+id/underprocess_count"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/circle_round"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+            <TextView
+                    android:id="@+id/completed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.8"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="Claim Settled"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            <TextView
+                    android:id="@+id/completed_count"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/circle_round"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000" />
+
+        <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFF"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+            <TextView
+                    android:id="@+id/title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.8"
+                    android:gravity="center|left"
+                    android:paddingLeft="5dp"
+                    android:text="Claim Rejected"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            <TextView
+                    android:id="@+id/rejected_count"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/circle_round"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</ScrollView>

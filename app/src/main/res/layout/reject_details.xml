@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:weightSum="1">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="Name Of  Insurance :"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/insuranceName"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:weightSum="1">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:text="Nominee Of  Insurance :"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/nomineeInsurance"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:weightSum="1">
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Contact No. :"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+            <TextView
+                    android:id="@+id/contactNo"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/buttonLayout"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:weightSum="1">
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.4"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Village :"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+                <TextView
+                        android:id="@+id/village"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.6"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:weightSum="1">
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.4"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Block :"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+                <TextView
+                        android:id="@+id/block"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.6"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:weightSum="1">
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.4"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:text="Bank Branch :"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+                <TextView
+                        android:id="@+id/bankbranch"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.6"
+                        android:layout_height="wrap_content"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+            </LinearLayout>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Write Reason For Rejection"
+                    android:textColor="#000"
+                    android:id="@+id/textHeading"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="20dp"
+                    android:background="@drawable/custom_circle_black_border"
+                    android:textSize="18sp"/>
+
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Reject Reason"
+                    android:padding="20dp"
+                    android:visibility="visible"
+                    android:textColor="#000"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_margin="10dp"
+                    android:id="@+id/rejectReason"/>
+
+
+            <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:textSize="16sp"
+                    android:id="@+id/actionButton"
+                    android:textColor="#fff"
+                    android:textAllCaps="false"
+                    android:padding="15dp"
+                    android:visibility="visible"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_circle"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

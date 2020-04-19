@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:scaleType="centerCrop"
+            android:tint="@color/colorTransparent"
+
+            android:src="@drawable/backgtound_png"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/topText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="25dp"
+            android:elevation="5dp"
+            android:text="Please Enter One Time Password(OTP)?"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--This is second step-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/secondStep"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginBottom="110dp"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+                android:id="@+id/textView_noti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Enter the 4 digit OTP"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/pinView"
+                app:layout_constraintEnd_toEndOf="@+id/pinView"
+                app:layout_constraintStart_toStartOf="@+id/pinView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <com.chaos.view.PinView
+                android:id="@+id/pinView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="18sp"
+                app:itemCount="4"
+                app:itemHeight="48dp"
+                app:itemRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lineColor="@color/colorTransparent"
+                app:viewType="rectangle" />
+        <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="bdfsagdfsadasfdas"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/pinView"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toStartOf="@+id/pinView"
+                app:layout_constraintTop_toBottomOf="@+id/pinView" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/resendOtp"
+                android:text="Didn't get the OTP? RESEND OTP."
+                android:textColor="#000"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/pinView"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toStartOf="@+id/pinView"
+                app:layout_constraintTop_toBottomOf="@+id/pinView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/buttonshape"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Save Data"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

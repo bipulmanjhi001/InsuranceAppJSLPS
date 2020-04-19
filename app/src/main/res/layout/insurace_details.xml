@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:padding="1dp"
+                    android:text="Name of Insurance"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text=":"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/insuranceName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:padding="1dp"
+                    android:text="Nominee of Insurance"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text=":"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/nomineeInsurance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:padding="5dp"
+                    android:text="Contact No."
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:text=":"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <TextView
+                    android:id="@+id/contactNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:padding="1dp"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="1dp"
+                        android:text="Village"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:text=":"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:id="@+id/village"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="1dp"
+                        android:text="Block"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:text=":"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:id="@+id/block"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:padding="1dp"
+                        android:text="Bank Branch"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:text=":"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+
+                <TextView
+                        android:id="@+id/bankbranch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:padding="1dp"
+                        android:textColor="#000"
+                        android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/textHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/custom_circle_black_border"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:elevation="5dp"
+                    android:text="Written information submitted at bank ."
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp">
+
+                <ImageView
+                        android:id="@+id/doucment"
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.6" />
+
+                <Button
+                        android:id="@+id/uploadDocument"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/custom_circle_black_border"
+                        android:padding="10dp"
+                        android:text="Upload"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_marginRight="2dp"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/documentReadybutnotsubmit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.85"
+                        android:background="@drawable/custom_circle"
+                        android:padding="10dp"
+                        android:text="Document ready but not received by the branch"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                <Button
+                        android:id="@+id/documentfalse"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/custom_circle"
+                        android:padding="10dp"
+
+                        android:text="Document False"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+                <Button
+                        android:id="@+id/actionButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.55"
+                        android:background="@drawable/custom_circle"
+                        android:padding="10dp"
+                        android:text="Under Process"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

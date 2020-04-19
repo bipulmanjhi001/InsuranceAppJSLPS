@@ -1,0 +1,71 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="toolbar_height">13.33dp</dimen>
+    <dimen name="text_xsmall">5.5sp</dimen>
+    <dimen name="text_xxsmall">4.4sp</dimen>
+    <dimen name="text_small">6.6sp</dimen>
+    <dimen name="text_xxxsmall">6.6sp</dimen>
+    <dimen name="text_medium">7.7sp</dimen>
+    <dimen name="text_large">8.8sp</dimen>
+    <dimen name="text_xlarge">9.9sp</dimen>
+    <dimen name="text_xxlarge">11.0sp</dimen>
+    <dimen name="text_xxxlarge">16.5sp</dimen>
+    <dimen name="text_xxxxlarge">33.0sp</dimen>
+    <dimen name="spacing_xxxsmall">-5.5dp</dimen>
+
+    <dimen name="spacing_xsmall">1.1dp</dimen>
+    <dimen name="spacing_xxsmall">2.2dp</dimen>
+    <dimen name="spacing_xxxxsmall">3.33dp</dimen>
+    <dimen name="spacing_small">5.5dp</dimen>
+    <dimen name="spacing_xmedium">7.7dp</dimen>
+    <dimen name="spacing_medium">8.8dp</dimen>
+    <dimen name="spacing_large">11.0dp</dimen>
+    <dimen name="spacing_xlarge">13.2dp</dimen>
+    <dimen name="spacing_xxlarge">16.5dp</dimen>
+    <dimen name="spacing_xxxlarge">17.6dp</dimen>
+    <dimen name="layout_left_large">44.0dp</dimen>
+    <dimen name="layout_small">0.55dp</dimen>
+    <dimen name="layout_xsmall">1.65dp</dimen>
+    <dimen name="layout_xxsmall">2.75dp</dimen>
+    <dimen name="layout_xxxsmall">4.4dp</dimen>
+    <dimen name="layout_medium">14.3dp</dimen>
+    <dimen name="layout_large">22.0dp</dimen>
+    <dimen name="layout_xlarge">27.5dp</dimen>
+    <dimen name="layout_xxlarge">33.0dp</dimen>
+    <dimen name="layout_xxxlarge">55.0dp</dimen>
+
+    <dimen name="thumb_text_size">7.7sp</dimen>
+
+    <dimen name="thumb_width">55.0dp</dimen>
+    <dimen name="thumb_height">27.5dp</dimen>
+    <dimen name="margin_large">40.0dp</dimen>
+
+    <dimen name="view_pager_height">302.5dp</dimen>
+    <dimen name="top_height">46.66dp</dimen>
+    <dimen name="recycler_width">154.0dp</dimen>
+    <dimen name="logo_height">66.0dp</dimen>
+
+    <dimen name="pingpay_red_width">121.0dp</dimen>
+    <dimen name="pingpay_red_height">93.5dp</dimen>
+    <dimen name="thumb_left">60.5dp</dimen>
+    <dimen name="layout_150dp">50dp</dimen>
+    <dimen name="layout_240dp">80dp</dimen>
+    <dimen name="layout_160dp">53.33dp</dimen>
+    <dimen name="layout_155dp">51.66dp</dimen>
+    <dimen name="layout_180dp">60dp</dimen>
+    <dimen name="layout_185dp">61.66dp</dimen>
+    <dimen name="layout_200dp">66.66dp</dimen>
+    <dimen name="layout_75dp">25dp</dimen>
+    <dimen name="layout_350dp">116.66dp</dimen>
+    <dimen name="layout_18dp">6dp</dimen>
+    <dimen name="layout_22dp">7.33dp</dimen>
+    <dimen name="layout_11dp">3.66dp</dimen>
+    <dimen name="layout_35dp">11.66dp</dimen>
+    <dimen name="layout_70dp">23.33dp</dimen>
+    <dimen name="layout_175dp">58.33dp</dimen>
+    <dimen name="layout_45dp">15dp</dimen>
+    <dimen name="layout_55dp">19dp</dimen>
+    <dimen name="layout_26dp">9dp</dimen>
+    <dimen name="layout_300dp">100dp</dimen>
+</resources>

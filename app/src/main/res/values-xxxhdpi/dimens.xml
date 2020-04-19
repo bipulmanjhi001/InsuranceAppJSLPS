@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">320dp</dimen>
+    <dimen name="toolbar_height">53.33dp</dimen>
+
+    <dimen name="text_xsmall">10sp</dimen>
+    <dimen name="text_xxsmall">8sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_xxxsmall">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_xlarge">18sp</dimen>
+    <dimen name="text_xxlarge">20sp</dimen>
+    <dimen name="text_xxxlarge">30sp</dimen>
+    <dimen name="text_xxxxlarge">60sp</dimen>
+
+    <dimen name="spacing_xxxsmall">-10dp</dimen>
+    <dimen name="spacing_xsmall">2.66dp</dimen>
+    <dimen name="spacing_xxsmall">5.33dp</dimen>
+    <dimen name="spacing_xxxxsmall">8dp</dimen>
+    <dimen name="spacing_small">13.33dp</dimen>
+    <dimen name="spacing_xmedium">18.66dp</dimen>
+    <dimen name="spacing_medium">21.33dp</dimen>
+    <dimen name="spacing_large">26.66dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="spacing_xxxlarge">42.66dp</dimen>
+    <dimen name="layout_left_large">106.66dp</dimen>
+    <dimen name="layout_small">1.33dp</dimen>
+    <dimen name="layout_xsmall">4dp</dimen>
+    <dimen name="layout_xxsmall">6.66dp</dimen>
+    <dimen name="layout_xxxsmall">10.66dp</dimen>
+    <dimen name="layout_medium">34.666dp</dimen>
+    <dimen name="layout_large">53.33dp</dimen>
+    <dimen name="layout_xlarge">66.66dp</dimen>
+    <dimen name="layout_xxlarge">80dp</dimen>
+    <dimen name="layout_xxxlarge">133.33dp</dimen>
+
+    <dimen name="thumb_text_size">14sp</dimen>
+
+    <dimen name="thumb_width">133.33dp</dimen>
+    <dimen name="thumb_height">66.66dp</dimen>
+    <dimen name="margin_large">160dp</dimen>
+    <dimen name="view_pager_height">733.33dp</dimen>
+
+    <dimen name="top_height">186.66dp</dimen>
+
+    <dimen name="recycler_width">373.33dp</dimen>
+
+    <dimen name="logo_height">160dp</dimen>
+
+    <dimen name="pingpay_red_width">220dp</dimen>
+    <dimen name="pingpay_red_height">170dp</dimen>
+    <dimen name="thumb_left">110dp</dimen>
+
+    <dimen name="layout_150dp">200dp</dimen>
+    <dimen name="layout_240dp">320dp</dimen>
+    <dimen name="layout_160dp">213.33dp</dimen>
+    <dimen name="layout_155dp">206.66dp</dimen>
+    <dimen name="layout_180dp">240dp</dimen>
+    <dimen name="layout_185dp">246.66dp</dimen>
+    <dimen name="layout_200dp">266.66dp</dimen>
+    <dimen name="layout_75dp">100dp</dimen>
+    <dimen name="layout_350dp">466.66dp</dimen>
+    <dimen name="layout_18dp">24dp</dimen>
+    <dimen name="layout_22dp">29.33dp</dimen>
+    <dimen name="layout_11dp">14.66dp</dimen>
+    <dimen name="layout_35dp">46.66dp</dimen>
+    <dimen name="layout_70dp">93.33dp</dimen>
+    <dimen name="layout_175dp">233.33dp</dimen>
+    <dimen name="layout_45dp">60dp</dimen>
+    <dimen name="layout_55dp">73dp</dimen>
+    <dimen name="layout_26dp">66dp</dimen>
+    <dimen name="layout_300dp">400dp</dimen>
+</resources>

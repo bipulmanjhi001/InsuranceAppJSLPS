@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jslps.bimaseva">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".SugarOrmTestApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/allinsurance"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/allinsurance"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".assetsReg.AssetsRegistration"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.WelcomeActivityNew">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:name=".activity.WelcomeActivityNewNext" />
+        <activity android:name=".activity.ClaimRegistrationActivity" />
+        <activity
+            android:name=".activity.ClaimRegistrationActivitySHGMember"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ClaimRegistrationActivityFamilySHGMember"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ClaimRegistrationActivityOthers"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activity.ClaimRegistrationActivityOtpScreen" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="Insurance.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+package com.jslps.bimaseva.model
+
+import com.google.gson.annotations.SerializedName
+
+data class Master(
+    @SerializedName("Districtname") val districtname : String,
+    @SerializedName("Blockname") val blockname : String,
+    @SerializedName("Villagename") val villagename : String,
+    @SerializedName("PanchayatName") val panchayatName : String,
+    @SerializedName("SHGName") val sHGName : String,
+    @SerializedName("BranchName") val branchName : String,
+    @SerializedName("Call_Id") val call_Id : String,
+    @SerializedName("Name") val name : String,
+    @SerializedName("NameofNominee") val nameofNominee : String,
+    @SerializedName("Phno_ofNominee") val phno_ofNominee : String,
+    @SerializedName("DistrictCode") val districtCode : String,
+    @SerializedName("BlockCode") val blockCode : String,
+    @SerializedName("ClusterCode") val clusterCode : String,
+    @SerializedName("VillageCode") val villageCode : String,
+    @SerializedName("SHGCode") val sHGCode : String,
+    @SerializedName("BankBranch") val bankBranch : String,
+    @SerializedName("DateofIncidence") val dateofIncidence : String,
+    @SerializedName("TypeofInsurance") val typeofInsurance : String,
+    @SerializedName("OtherInsurance") val otherInsurance : String,
+    @SerializedName("Phno_claim") val phno_claim : String,
+    @SerializedName("Name_Claim") val name_Claim : String,
+    @SerializedName("CreatedBy") val createdBy : String,
+    @SerializedName("CreatedOn") val createdOn : String,
+    @SerializedName("ID") val iD : String,
+    @SerializedName("call_id1") val call_id1 : String,
+    @SerializedName("guid") val guid : String,
+    @SerializedName("step") val step : String,
+    @SerializedName("imagebyte") val imagebyte : String,
+    @SerializedName("createdby1") val createdby1 : String,
+    @SerializedName("createdon1") val createdon1 : String,
+    @SerializedName("Flag_Reg") val flag_Reg : String,
+    @SerializedName("Flag_NU") val flag_NU : String,
+    @SerializedName("CreatedOn_NU") val createdOn_NU : String,
+    @SerializedName("Image_UP") val image_UP : String,
+    @SerializedName("Flag_UP") val flag_UP : String,
+    @SerializedName("CreatedOn_Up") val createdOn_Up : String,
+    @SerializedName("Image_CS") val image_CS : String,
+    @SerializedName("Flag_CS") val flag_CS : String,
+    @SerializedName("Created_CS") val created_CS : String,
+    @SerializedName("Amount") val amount : String,
+    @SerializedName("RejectReason") val rejectReason : String,
+    @SerializedName("Status") val Status : String,
+    @SerializedName("insuranceTypeFetch") var insuranceTypeFetch : String
+
+
+)
