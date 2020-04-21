@@ -52,6 +52,7 @@ import java.util.concurrent.TimeUnit
 
 
 class ClaimRegistrationFragmentFamily : BaseFragment() {
+
     var rootView:View?=null
     var nameOfnomminee: TextInputEditText? = null
     var name: TextInputEditText? = null
@@ -80,10 +81,12 @@ class ClaimRegistrationFragmentFamily : BaseFragment() {
     var radioButton: RadioButton? = null
     var radioGroup: RadioGroup? = null
     var genderId: Int? = null
+
     override fun onResume() {
         super.onResume()
         mListener?.onFragmentUpdate(Constant.setTitle,HeaderData(false,"Family Member Of SHG Claim Registration"))
     }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
